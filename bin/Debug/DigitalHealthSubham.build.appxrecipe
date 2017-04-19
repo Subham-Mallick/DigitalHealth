@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUBHAM</Machine>
+    <WindowsUser>Subham</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9d7ae7d7-4b15-4fbd-a5b0-d0296f20b0f9</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\DigitalHealthSubham.exe">
+      <PackagePath>DigitalHealthSubham.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\DigitalHealthSubham.xr.xml">
+      <PackagePath>DigitalHealthSubham.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\subham\documents\visual studio 2015\Projects\DigitalHealthSubham\DigitalHealthSubham\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
